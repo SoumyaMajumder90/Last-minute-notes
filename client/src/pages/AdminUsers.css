@@ -1,0 +1,55 @@
+.admin-users-section {
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-users table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-users th,
+  .admin-users td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .admin-users th {
+    background-color: #f0f0f0;
+  }
+  
+  .admin-users td {
+    background-color: #ffffff;
+  }
+  
+  .admin-users tr:hover td {
+    background-color: #f9f9f9;
+  }
+  
+  .admin-users th:first-child,
+  .admin-users td:first-child {
+    padding-left: 20px;
+  }
+  
+  .admin-users th:last-child,
+  .admin-users td:last-child {
+    padding-right: 20px;
+  }
+  
+  .admin-users th:nth-child(4),
+  .admin-users td:nth-child(4),
+  .admin-users th:nth-child(5),
+  .admin-users td:nth-child(5) {
+    text-align: center;
+  }
+  

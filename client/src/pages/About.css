@@ -1,0 +1,19 @@
+/* About.css */
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .about-content {
+    max-width: 600px;
+  }
+  
+  .about-image {
+    flex-shrink: 0; /* Prevent image from shrinking */
+  }
+  
+  /* Add any additional styling you need for text, headings, etc. */
+  

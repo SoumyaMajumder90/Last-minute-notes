@@ -1,0 +1,39 @@
+/* Contact.css */
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(18, 17, 20);
+    color: beige;
+  }
+  
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    background-color: #96b836;
+    color: #1a0a0a;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
