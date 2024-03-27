@@ -29,7 +29,7 @@ const Login = () => {
   const handleSubmit = async (e)=>{
     e.preventDefault(); //restrict refresh
     try {
-      const response = await fetch('http://localhost:5000/api/auth/login', {
+      const response = await fetch('https://last-minute-notes-2.onrender.com/api/auth/login', {
           method: "POST",
           headers: {
               'Content-Type': "application/json",
@@ -48,7 +48,7 @@ const Login = () => {
         setUser({
         email:"",
         password:"",});
-        navigate("/");
+        navigate("/home");
 
       }
       else{
