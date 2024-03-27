@@ -8,10 +8,11 @@ const PORT = 5000;
 const app = express();
 const connectDb = require('./utils/db');
 const errorMiddleware = require("./middlewares/error-middleware");
-const corsOptions = {
+const corsOption = {
     origin: "https://last-minute-note.netlify.app",
-    methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
+    methods : "GET, POST, PUT,DELETE, PATCH,HEAD",
     credentials: true,
+
 };
 //middlewaree
 //handle cors
