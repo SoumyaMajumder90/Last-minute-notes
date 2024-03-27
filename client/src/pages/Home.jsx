@@ -1,4 +1,5 @@
  import "./Home.css";
+ import { NavLink } from 'react-router-dom';
 
 export const Home = () => {
   return (
@@ -58,13 +59,12 @@ export const Home = () => {
               Ready to take the first step towards a more efficient roadmap for placement.
             </p>
             <div className="btn btn-group">
-            <a href="/service">
+            <NavLink to="/service">
                 <button className="btn secondary-btn">Get Started</button>
-              </a>
-              <a href="/contact">
+                </NavLink>
+              <NavLink to="/contact">
                 <button className="btn">Connect now</button>
-              </a>
-              
+                </NavLink>
             </div>
           </div>
         </div>
